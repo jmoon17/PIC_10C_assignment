@@ -1,6 +1,5 @@
 #include "grade_calculator.h"
 #include "ui_grade_calculator.h"
-#include <QDebug>
 
 grade_calculator::grade_calculator(QWidget *parent) :
     QMainWindow(parent),
@@ -33,9 +32,9 @@ void grade_calculator::useSchemeA(){
         int final = ui->finalBox_11->value();
 
         double total = (static_cast<double>(hws)/8) *0.25 + static_cast<double>(midTerms) * 0.40 + static_cast<double>(final) * 0.35;
-        QString stotal  = QString::number(total);
-        qDebug("A");
-        ui->label_14->setText(stotal);
+
+
+        ui->label_14->setText(QString::number(total));
     }
 
     else if(course == "PIC 10C Advanced Programming"){
@@ -48,9 +47,8 @@ void grade_calculator::useSchemeA(){
 
         double total = (static_cast<double>(hws)/8) *0.15 + static_cast<double>(midTerms) * 0.30 + static_cast<double>(final) * 0.65;
 
-        QString stotal  = QString::number(total);
-        qDebug("B");
-        ui->label_14->setText(stotal);
+
+        ui->label_14->setText(QString::number(total));
     }
 }
 
@@ -67,9 +65,7 @@ void grade_calculator::useSchemeB(){
 
         double total = (static_cast<double>(hws)/8) *0.25 + static_cast<double>(midTerms) * 0.30 + static_cast<double>(final) * 0.45;
 
-        QString stotal  = QString::number(total);
-        qDebug("C");
-        ui->label_14->setText(stotal);
+        ui->label_14->setText(QString::number(total));
     }
 
     else if(course == "PIC 10C Advanced Programming"){
@@ -82,9 +78,8 @@ void grade_calculator::useSchemeB(){
 
         double total = (static_cast<double>(hws)/8) *0.10 + static_cast<double>(midTerms) * 0.40 + static_cast<double>(final) * 0.50;
 
-        QString stotal  = QString::number(total);
-        qDebug("D");
-        ui->label_14->setText(stotal);
+
+        ui->label_14->setText(QString::number(total));
     }
 
 }
