@@ -7,6 +7,8 @@ grade_calculator::grade_calculator(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    QObject::connect(ui->radioButton, SIGNAL(clicked()), this, SLOT(useSchemeA()));
+    QObject::connect(ui->radioButton_2, SIGNAL(clicked()), this, SLOT(useSchemeB()));
 
 }
 
