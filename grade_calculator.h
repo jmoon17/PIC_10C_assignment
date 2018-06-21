@@ -17,8 +17,6 @@ class grade_calculator : public QMainWindow
         explicit grade_calculator(QWidget *parent = 0);
         ~grade_calculator();
 
-//    signals:
-//        void compute_overall();
 
     public slots:
         void useSchemeA();
