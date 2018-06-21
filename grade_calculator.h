@@ -20,8 +20,9 @@ class grade_calculator : public QMainWindow
 //    signals:
 //        void compute_overall();
 
-//    public slots:
-//        void update_overall(int);
+    public slots:
+        void useSchemeA();
+        void useSchemeB();
 
     private:
         Ui::MainWindow *ui;

@@ -102,43 +102,75 @@
      <string>0.0</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>310</x>
       <y>40</y>
-      <width>51</width>
+      <width>56</width>
       <height>301</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <widget class="QSpinBox" name="spinBox"/>
+      <widget class="QSpinBox" name="hwBox">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_2"/>
+      <widget class="QSpinBox" name="hwBox_2">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_3"/>
+      <widget class="QSpinBox" name="hwBox_3">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_4"/>
+      <widget class="QSpinBox" name="hwBox_4">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_5"/>
+      <widget class="QSpinBox" name="hwBox_5">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_6"/>
+      <widget class="QSpinBox" name="hwBox_6">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_7"/>
+      <widget class="QSpinBox" name="hwBox_7">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_8"/>
+      <widget class="QSpinBox" name="hwBox_8">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -149,56 +181,80 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
      <item>
-      <widget class="QSlider" name="horizontalSlider">
+      <widget class="QSlider" name="hwSlider">
+       <property name="maximum">
+        <number>100</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSlider" name="horizontalSlider_2">
+      <widget class="QSlider" name="hwSlider_2">
+       <property name="maximum">
+        <number>100</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSlider" name="horizontalSlider_3">
+      <widget class="QSlider" name="hwSlider_3">
+       <property name="maximum">
+        <number>100</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSlider" name="horizontalSlider_8">
+      <widget class="QSlider" name="hwSlider_8">
+       <property name="maximum">
+        <number>100</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSlider" name="horizontalSlider_4">
+      <widget class="QSlider" name="hwSlider_4">
+       <property name="maximum">
+        <number>100</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSlider" name="horizontalSlider_7">
+      <widget class="QSlider" name="hwSlider_7">
+       <property name="maximum">
+        <number>100</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSlider" name="horizontalSlider_5">
+      <widget class="QSlider" name="hwSlider_5">
+       <property name="maximum">
+        <number>100</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSlider" name="horizontalSlider_6">
+      <widget class="QSlider" name="hwSlider_6">
+       <property name="maximum">
+        <number>100</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
@@ -206,7 +262,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -274,7 +330,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>390</x>
@@ -292,18 +348,25 @@
       </widget>
      </item>
      <item>
-      <widget class="QSlider" name="horizontalSlider_9">
+      <widget class="QSlider" name="mt1Slider_9">
+       <property name="maximum">
+        <number>100</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_9"/>
+      <widget class="QSpinBox" name="mt1Box_9">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>390</x>
@@ -321,18 +384,25 @@
       </widget>
      </item>
      <item>
-      <widget class="QSlider" name="horizontalSlider_10">
+      <widget class="QSlider" name="mt2Slider_10">
+       <property name="maximum">
+        <number>100</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_10"/>
+      <widget class="QSpinBox" name="mt2Box_10">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>390</x>
@@ -350,14 +420,21 @@
       </widget>
      </item>
      <item>
-      <widget class="QSlider" name="horizontalSlider_11">
+      <widget class="QSlider" name="finalSlider_11">
+       <property name="maximum">
+        <number>100</number>
+       </property>
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_11"/>
+      <widget class="QSpinBox" name="finalBox_11">
+       <property name="maximum">
+        <number>100</number>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
@@ -407,9 +484,9 @@
  <resources/>
  <connections>
   <connection>
-   <sender>horizontalSlider</sender>
+   <sender>hwSlider</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>spinBox</receiver>
+   <receiver>hwBox</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -423,9 +500,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>spinBox</sender>
+   <sender>hwBox</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>horizontalSlider</receiver>
+   <receiver>hwSlider</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -439,9 +516,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_2</sender>
+   <sender>hwSlider_2</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>spinBox_2</receiver>
+   <receiver>hwBox_2</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -455,9 +532,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>spinBox_2</sender>
+   <sender>hwBox_2</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>horizontalSlider_2</receiver>
+   <receiver>hwSlider_2</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -471,9 +548,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>spinBox_3</sender>
+   <sender>hwBox_3</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>horizontalSlider_3</receiver>
+   <receiver>hwSlider_3</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -487,9 +564,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_3</sender>
+   <sender>hwSlider_3</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>spinBox_3</receiver>
+   <receiver>hwBox_3</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -503,9 +580,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_8</sender>
+   <sender>hwSlider_8</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>spinBox_4</receiver>
+   <receiver>hwBox_4</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -519,9 +596,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>spinBox_4</sender>
+   <sender>hwBox_4</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>horizontalSlider_8</receiver>
+   <receiver>hwSlider_8</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -535,9 +612,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_4</sender>
+   <sender>hwSlider_4</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>spinBox_5</receiver>
+   <receiver>hwBox_5</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -551,9 +628,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>spinBox_5</sender>
+   <sender>hwBox_5</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>horizontalSlider_4</receiver>
+   <receiver>hwSlider_4</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -567,9 +644,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_7</sender>
+   <sender>hwSlider_7</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>spinBox_6</receiver>
+   <receiver>hwBox_6</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -583,9 +660,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>spinBox_6</sender>
+   <sender>hwBox_6</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>horizontalSlider_7</receiver>
+   <receiver>hwSlider_7</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -599,9 +676,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_5</sender>
+   <sender>hwSlider_5</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>spinBox_7</receiver>
+   <receiver>hwBox_7</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -615,9 +692,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>spinBox_7</sender>
+   <sender>hwBox_7</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>horizontalSlider_5</receiver>
+   <receiver>hwSlider_5</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -631,9 +708,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_6</sender>
+   <sender>hwSlider_6</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>spinBox_8</receiver>
+   <receiver>hwBox_8</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -647,9 +724,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>spinBox_8</sender>
+   <sender>hwBox_8</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>horizontalSlider_6</receiver>
+   <receiver>hwSlider_6</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -663,9 +740,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_9</sender>
+   <sender>mt1Slider_9</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>spinBox_9</receiver>
+   <receiver>mt1Box_9</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -679,9 +756,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>spinBox_9</sender>
+   <sender>mt1Box_9</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>horizontalSlider_9</receiver>
+   <receiver>mt1Slider_9</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -695,9 +772,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_10</sender>
+   <sender>mt2Slider_10</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>spinBox_10</receiver>
+   <receiver>mt2Box_10</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -711,9 +788,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>spinBox_10</sender>
+   <sender>mt2Box_10</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>horizontalSlider_10</receiver>
+   <receiver>mt2Slider_10</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -727,9 +804,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>horizontalSlider_11</sender>
+   <sender>finalSlider_11</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>spinBox_11</receiver>
+   <receiver>finalBox_11</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
@@ -743,9 +820,9 @@
    </hints>
   </connection>
   <connection>
-   <sender>spinBox_11</sender>
+   <sender>finalBox_11</sender>
    <signal>valueChanged(int)</signal>
-   <receiver>horizontalSlider_11</receiver>
+   <receiver>finalSlider_11</receiver>
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
